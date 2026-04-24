@@ -2,8 +2,8 @@ import os
 import requests
 from bs4 import BeautifulSoup
 
-BOT_TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
-CHAT_ID = os.environ["TELEGRAM_CHAT_ID"]
+BOT_TOKEN = os.environ["8685078633:AAGD5YwBE1u5Ii1kPwB9rZ6Jp4tNDdv57NU"]
+CHAT_ID = os.environ["38908105"]
 
 PROGRAMS = [
     "Клара Румянова. Звезда за кадром",
