@@ -79,3 +79,5 @@ def check_program(title):
 
 def main():
     send_telegram("ТЕСТ 🚀")
+if __name__ == "__main__":
+    main()
