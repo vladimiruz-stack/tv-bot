@@ -75,18 +75,5 @@ def check_program(title):
 
     return None
 
- def main():
+def main():
     send_telegram("Бот работает 🚀")
-
-    for title in PROGRAMS:
-        result = check_program(title)
-        if result:
-            results.append(result)
-
-    if results:
-        send_telegram("\n\n---\n\n".join(results))
-    else:
-        print("Эфиров пока не найдено.")
-
-if __name__ == "__main__":
-    main()
