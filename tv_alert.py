@@ -75,8 +75,8 @@ def check_program(title):
 
     return None
 
-def main():
-    results = []
+ def main():
+    send_telegram("Бот работает 🚀")
 
     for title in PROGRAMS:
         result = check_program(title)
