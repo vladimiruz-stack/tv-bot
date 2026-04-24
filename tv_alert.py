@@ -76,14 +76,4 @@ def check_program(title):
     return None
 
 def main():
-    results = []
-
-    for title in PROGRAMS:
-        result = check_program(title)
-        if result:
-            results.append(result)
-
-    if results:
-        send_telegram("\n\n---\n\n".join(results))
-    else:
-        print("Эфиров пока не найдено.")
+    send_telegram("ТЕСТ 🚀")
