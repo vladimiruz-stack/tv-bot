@@ -63,7 +63,6 @@ def send_telegram(text):
     )
     print(r.status_code)
     print(r.text)
-    )
 
 def check_program(title):
     url = SEARCH_URL + requests.utils.quote(title)
