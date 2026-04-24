@@ -56,10 +56,13 @@ CHANNELS = [
 SEARCH_URL = "https://tv.yandex.ru/search?text="
 
 def send_telegram(text):
-    requests.post(
+    r = requests.post(
         f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage",
         json={"chat_id": CHAT_ID, "text": text},
         timeout=20
+    )
+    print(r.status_code)
+    print(r.text)
     )
 
 def check_program(title):
