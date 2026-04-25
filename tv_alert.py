@@ -1,4 +1,4 @@
-print("START SCRIPT")
+print("HELLO FROM GITHUB")
 
 import requests
 
