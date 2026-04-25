@@ -2,13 +2,11 @@ print("HELLO FROM GITHUB")
 
 import requests
 
-BOT_TOKEN = "8685078633:AAF46dqI3-SWkUWDEQb21yb8YPfgm4VfpUA"
+BOT_TOKEN = "вставь_сюда_токен"
 CHAT_ID = "38908105"
 
-url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
-
 r = requests.post(
-    url,
+    f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage",
     json={"chat_id": CHAT_ID, "text": "ТЕСТ 🚀"},
     timeout=20
 )
