@@ -1,9 +1,11 @@
+print("START SCRIPT")
+
 import requests
 
 BOT_TOKEN = "8685078633:AAF46dqI3-SWkUWDEQb21yb8YPfgm4VfpUA"
 CHAT_ID = "38908105"
 
-url = f"https://api.telegram.org/bot{8685078633:8685078633:AAF46dqI3-SWkUWDEQb21yb8YPfgm4VfpUA}/sendMessage"
+url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
 
 r = requests.post(
     url,
